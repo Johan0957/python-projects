@@ -1,7 +1,7 @@
 
 # The Analysis
 
-## 1.What Are The most demanded skills for popluar data roles ?
+## 1.What Are The most demanded skills for popular data roles ?
 
 To find The Most demanded skills for popular roles 
 specifically three roles. I filtered out 5 of the most requested skills for these roles in job postings .This query highlights the most popular skills for the respective data roles, laying out skills which viewers  may need to pay attention to depending on the role Which they are targeting.
