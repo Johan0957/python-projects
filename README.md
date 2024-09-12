@@ -37,3 +37,33 @@ for i,job_title in enumerate(job_titles):
 -Sql is the most demanded skills it's the most requested skill in both data analysics and data engineering but most data science python is the most sough-after skill
  
 -cloud environmets and tools are mostly needed for data engineers aws is placed high in both data science and data engineering postings
+
+## 2.How Are In-Demand Skills Trending For Data Analysts?
+
+To Observe the trending of skills overtime i have filtered the most popular skills for data analytics job postings and plotted a chart to show the skills trending overtime This query highlights how the most popular skills are trending throughout the year ,providing insights to skills which are most in-demand for viewers to see 
+
+View my notebook with details steps here:[3_Skills_Trends](3_Project\3_Skills_Trends.ipynb)
+
+## Visualize Data
+````python
+sns.lineplot(data=df_DA_percent.iloc[:,:5],dashes=False,palette='tab10')
+plt.title('Top Skills Trending For Data Analyst In India')
+plt.xlabel('')
+plt.legend().remove()
+for i in range(5):
+    plt.text(11.2,df_DA_percent.iloc[-1,i],df_DA_percent.columns[i])
+sns.despine()
+from matplotlib.ticker import PercentFormatter
+ax=plt.gca()
+ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
+plt.ylim(10,70)
+````
+## Results
+![Visualization of skills Trends](3_Project\images\skill_trend_line_chart.png)
+
+## Insights
+-sql is the most demanded skill in the data analyst job posting by a comfortably large margin it's consistently around or above 50% of all posting in India  
+
+-python and excel are pretty much the same throughout the year python has a large spike-up in june and excel has a spike-down in both June and August 
+
+-tableau is consistently more popular skill for data visualization than powerbi it is more demanded in job posting and has a spike-up more than 30% in certain months(june,september to october) 
