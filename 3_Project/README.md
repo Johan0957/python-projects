@@ -59,7 +59,7 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
 plt.ylim(10,70)
 ````
 ## Results
-![Visualization of skills Trends](3_Project/images/skill_trend_line_chart.png)
+![Visualization of skills Trends](https://github.com/Johan0957/python-projects/blob/main/3_Project/images/skill_trend_line_chart.png)
 
 ## Insights
 - sql is the most demanded skill in the data analyst job posting by a comfortably large margin it's consistently around or above 50% of all posting in India  
