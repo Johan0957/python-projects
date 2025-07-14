@@ -7,7 +7,7 @@ To find The Most demanded skills for popular roles
 specifically three roles. I filtered out 5 of the most requested skills for these roles in job postings .This query highlights the most popular skills for the respective data roles, laying out skills which viewers  may need to pay attention to depending on the role Which they are targeting.
 
 View my notebook with details steps here:
-[2_Skills_Demand.ipynb](3_Project\2_Skills_Demand.ipynb)
+[2_Skills_Demand.ipynb](3_Project/2_Skills_Demand.ipynb)
 
 ## Visualize Data
 ````python
@@ -29,7 +29,7 @@ for i,job_title in enumerate(job_titles):
         ax[i].text(v+1,n,f'{v:.0f}%',va='center')
 ````
 ## Results
-![Viusalization of Top Skills For Data Roles](3_Project\images\skill_demand_barchart.png)
+![Viusalization of Top Skills For Data Roles](3_Project/images/skill_demand_barchart.png)
 
 ## Insights
 - Python is a versatile Skill,highly demanded across all three roles but most prominently in data science(70%) and data engineering (61%)
@@ -42,7 +42,7 @@ for i,job_title in enumerate(job_titles):
 
 To Observe the trending of skills overtime i have filtered the most popular skills for data analytics job postings and plotted a chart to show the skills trending overtime This query highlights how the most popular skills are trending throughout the year ,providing insights to skills which are most in-demand for viewers to see 
 
-View my notebook with details steps here:[3_Skills_Trends](3_Project\3_Skills_Trends.ipynb)
+View my notebook with details steps here:[3_Skills_Trends](3_Project/3_Skills_Trends.ipynb)
 
 ## Visualize Data
 ````python
@@ -59,7 +59,7 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
 plt.ylim(10,70)
 ````
 ## Results
-![Visualization of skills Trends](3_Project\images\skill_trend_line_chart.png)
+![Visualization of skills Trends](3_Project/images/skill_trend_line_chart.png)
 
 ## Insights
 - sql is the most demanded skill in the data analyst job posting by a comfortably large margin it's consistently around or above 50% of all posting in India  
@@ -72,7 +72,7 @@ plt.ylim(10,70)
 
 To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
-View my notebook with details steps here: [4_Salary_Analysis](3_Project\4.Salary_Analysis.ipynb)
+View my notebook with details steps here: [4_Salary_Analysis](3_Project/4.Salary_Analysis.ipynb)
 
 ### Salary Analysis For Six Of The Most Popular Data Roles :
 
@@ -88,7 +88,7 @@ plt.show()
 ````
 
 ## Results
-![Visualization Of Salary Analysis](3_Project\images\salary_analysis_box_chart.png)
+![Visualization Of Salary Analysis](3_Project/images/salary_analysis_box_chart.png)
 
 ## Insights
 
@@ -113,7 +113,7 @@ fig.tight_layout()
 ````
 
 ## Results
-![Visualization of DA Skills Median](3_Project\images\DA_skill_salary_bar_chart.png)
+![Visualization of DA Skills Median](3_Project/images/DA_skill_salary_bar_chart.png)
 
 ## Insights
 - Cloud Based Tools Are the highest paying skills which reach more than $160k suggesting that cloud proficiency can lead to higher salaries 
